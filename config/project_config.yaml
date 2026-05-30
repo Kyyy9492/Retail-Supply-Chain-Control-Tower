@@ -1,0 +1,29 @@
+project:
+  name: retail-supply-chain-control-tower
+  version: 0.1.0
+
+paths:
+  raw_olist: data/raw/olist
+  raw_m5: data/raw/m5
+  processed: data/processed
+  outputs_tables: outputs/tables
+  outputs_figures: outputs/figures
+
+inventory:
+  default_lead_time_days: 7
+  service_level: 0.95
+  holding_cost_per_unit_per_day: 0.02
+  stockout_penalty_per_unit: 2.00
+
+forecasting:
+  test_horizon_days: 28
+  validation_horizon_days: 28
+  random_state: 42
+
+abc:
+  a_cutoff: 0.80
+  b_cutoff: 0.95
+
+xyz:
+  x_cv_cutoff: 0.50
+  y_cv_cutoff: 1.00
