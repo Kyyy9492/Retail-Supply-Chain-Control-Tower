@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Data files
+data/raw/
+data/processed/
+data/interim/
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+
+# Large dashboard files
+*.pbix
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
