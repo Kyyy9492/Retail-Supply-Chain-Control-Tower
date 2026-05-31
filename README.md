@@ -1,6 +1,10 @@
 # Retail Supply Chain Control Tower
 
+An end-to-end supply chain analytics portfolio project combining fulfillment performance analysis, demand forecasting, ABC/XYZ inventory segmentation, safety stock estimation, and reorder point recommendations using Olist e-commerce and M5 Walmart sales data.
+
 ## Project Overview
+
+**Quick Summary:** [View Project Summary](docs/project_summary.md)
 
 This project builds an end-to-end supply chain analytics workflow using two public datasets:
 
@@ -550,37 +554,3 @@ docs/m5_demand_inventory_findings.md
 
 ---
 
-# Future Improvements
-
-Planned next steps:
-
-* Add Power BI or Qlik Sense dashboard screenshots.
-* Add SQL-based data mart implementation for Olist KPIs.
-* Add late delivery classification model using seller, customer, product, freight, and time features.
-* Add machine learning demand forecasting models such as Random Forest, XGBoost, or LightGBM.
-* Add inventory policy simulation comparing current policy vs forecast-based replenishment.
-* Add executive summary PDF for recruiter and interview use.
-
----
-
-# Project Resume Summary
-
-**Retail Supply Chain Control Tower | SQL, Python, Forecasting, Inventory Analytics**
-
-* Built an end-to-end supply chain analytics workflow using Olist e-commerce and M5 Walmart sales data to analyze delivery performance, seller reliability, SKU demand patterns, and inventory replenishment strategies.
-* Developed Python-based fulfillment KPIs, seller risk scorecards, and regional delivery analyses across 99K+ e-commerce orders to identify late-delivery bottlenecks.
-* Implemented demand forecasting baselines using moving-average and weekday-demand models, evaluating performance with MAE, RMSE, and WAPE.
-* Applied ABC/XYZ inventory segmentation to classify high-value and volatile SKUs, estimate safety stock, calculate reorder points, and generate replenishment recommendations.
-
----
-
-# Status
-
-Current project status:
-
-* Olist fulfillment analytics completed.
-* M5 demand forecasting and inventory segmentation completed.
-* Output tables and figures generated.
-* Business findings documents created.
-* README updated for portfolio presentation.
-* Dashboard layer planned as a future enhancement.
