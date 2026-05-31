@@ -9,6 +9,60 @@ This project builds an end-to-end supply chain analytics workflow using two publ
 
 The goal is to move beyond simple dashboard reporting and create a realistic analytics workflow that supports operational decision-making.
 
+## Current Progress: Olist Fulfillment & Delivery Analytics
+
+The first phase of this project analyzes the Olist Brazilian E-Commerce dataset to evaluate order fulfillment performance, delivery delays, seller reliability, freight cost, and customer review outcomes.
+
+### Generated Outputs
+
+- Order-level delivery KPI table
+- Monthly supply chain KPI summary
+- State-level delivery performance analysis
+- Seller delivery risk scorecard
+- Product category delivery KPI table
+- Initial business findings document
+
+### Key Analysis Areas
+
+1. **Delivery Performance**
+   - Calculated actual delivery days, estimated delivery days, delay days, and late delivery flags.
+   - Measured monthly order volume and late delivery rate trends.
+
+2. **Regional Fulfillment Bottlenecks**
+   - Compared late delivery rates across customer states.
+   - Identified regions with higher fulfillment risk.
+
+3. **Seller Reliability**
+   - Built a seller scorecard using order volume, late delivery rate, delivery time, freight value, and review score.
+   - Flagged high-volume sellers with elevated late delivery risk.
+
+4. **Product Category Performance**
+   - Compared product categories by order volume, freight cost, delivery delay, and review outcome.
+
+### Sample Visualizations
+
+#### Monthly Order Volume
+
+![Monthly Order Volume](outputs/figures/monthly_order_volume.png)
+
+#### Monthly Late Delivery Rate
+
+![Monthly Late Delivery Rate](outputs/figures/monthly_late_delivery_rate.png)
+
+#### Top 10 States by Late Delivery Rate
+
+![Top 10 States by Late Delivery Rate](outputs/figures/top10_states_late_rate.png)
+
+#### Seller Risk Matrix
+
+![Seller Risk Matrix](outputs/figures/seller_risk_matrix.png)
+
+### Initial Findings
+
+The initial fulfillment analysis is documented here:
+
+[View Olist Initial Findings](docs/olist_initial_findings.md)
+
 ## Business Objective
 
 A retail/e-commerce company wants to:
