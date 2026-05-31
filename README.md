@@ -13,15 +13,16 @@ The goal is to move beyond simple dashboard reporting and create a realistic ana
 
 ```mermaid
 flowchart LR
-    A[Raw Data: Olist + M5] --> B[Data Cleaning & KPI Tables]
+    A[Raw Data: Olist and M5] --> B[Data Cleaning and KPI Tables]
     B --> C[Fulfillment Analytics]
     B --> D[Demand Forecasting]
-    C --> E[Seller & Delivery Risk Insights]
-    D --> F[ABC/XYZ Segmentation]
-    F --> G[Safety Stock & Reorder Point]
+    C --> E[Seller and Delivery Risk Insights]
+    D --> F[ABC XYZ Segmentation]
+    F --> G[Safety Stock and Reorder Point]
     E --> H[Business Recommendations]
     G --> H
-    H --> I[Portfolio Outputs & Dashboard Layer]
+    H --> I[Portfolio Outputs and Dashboard Layer]
+```
 
 ---
 
