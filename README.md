@@ -399,6 +399,20 @@ The M5 demand forecasting and inventory optimization findings are documented her
 
 ---
 
+# Power BI Dashboard Preview
+
+## Fulfillment Overview Dashboard
+
+![Fulfillment Overview Dashboard](powerbi/dashboard_screenshots/fulfillment_overview_dashboard.png)
+
+## Demand & Inventory Planning Dashboard
+
+![Demand & Inventory Planning Dashboard](powerbi/dashboard_screenshots/demand_inventory_dashboard.png)
+
+The dashboard layer turns the Python-based analysis outputs into a business-facing reporting view for fulfillment monitoring, seller risk review, demand forecasting, and inventory planning.
+
+---
+
 # End-to-End Workflow
 
 ## 1. Data Preparation
